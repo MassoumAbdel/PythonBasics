@@ -1,0 +1,37 @@
+Git and GitHub
+
+Git - local version control system
+GitHub - cloud repository website, website that is integrated with git system,
+            shareable repository/location, that produces shareable link
+
+git
+ - local vs cloud
+ - create project -> enable git (enable VCS) -> add the cloud link (add origin)
+  -> create repository on the GitHub -> use the link as origin
+  -> configure global git configuration (name, email)
+  -> add and commit, push, pull
+
+  -------------   today  ----------
+ - Git commands:
+        cd projectDirectory
+        git init
+        git add folder1/scenario1.py
+        git commit -m 'message for your commit'
+        git status
+        git log
+        git push
+        git pull
+
+ - Branching:
+    create new branch, switch to new branch, create Pull Requests (highlights the changes)
+    a - Create new local branch:
+            -> Pycharm: select new branch option for current branch (bottom right)
+            -> git bash:
+
+ - Ignore files
+ - MD files for Project Documentation
+
+
+
+
+
