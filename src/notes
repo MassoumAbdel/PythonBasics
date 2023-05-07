@@ -24,11 +24,21 @@ git
 
  - Branching:
     create new branch, switch to new branch, create Pull Requests (highlights the changes)
-    a - Create new local branch:
-            -> Pycharm: select new branch option for current branch (bottom right)
-            -> git bash:
-
+    1 - Create new local branch:
+            a - Pycharm:
+                    select new branch option for current branch (bottom right)
+                    push each branch separately, creates origin:feature1-scen1 automatically
+            b - git bash:
+                    git checkout -b 'new-branch-name'
+                    git add folder1/ scenario1.py
+                    git commit -m 'message for your commit'
+                    git push
+                    git push -- set upstream origin features1-scen2
+    2 - Collaboration in GitHub:
+        1 - Creating the Pull Requests, get reviews and approval from Senior Engineer
+        2 - Merge your code in your branch to a master (main) branches
  - Ignore files
+
  - MD files for Project Documentation
 
 
