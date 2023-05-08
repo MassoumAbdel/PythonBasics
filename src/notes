@@ -38,7 +38,8 @@ git
         1 - Creating the Pull Requests, get reviews and approval from Senior Engineer
         2 - Merge your code in your branch to a master (main) branches
  - Ignore files
-
+    - create .gitignore (list of files to be ignored bi git)
+    - you can copy the standard .gitignore file for python projects (like we did in the class)
  - MD files for Project Documentation
 
 
