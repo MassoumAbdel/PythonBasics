@@ -12,7 +12,7 @@ git
   -> add and commit, push, pull
 
   -------------   today  ----------
- - Git commands:
+1 - Git commands you will use for local project:
         cd projectDirectory
         git init
         git add folder1/scenario1.py
@@ -22,24 +22,39 @@ git
         git push
         git pull
 
- - Branching:
+2- Branching:
     create new branch, switch to new branch, create Pull Requests (highlights the changes)
-    1 - Create new local branch:
-            a - Pycharm:
+    a - Create new local branch:
+            1 - Pycharm:
                     select new branch option for current branch (bottom right)
                     push each branch separately, creates origin:feature1-scen1 automatically
-            b - git bash:
+            2 - git bash, git CLI (Command Line Interface):
                     git checkout -b 'new-branch-name'
                     git add folder1/ scenario1.py
                     git commit -m 'message for your commit'
                     git push
                     git push -- set upstream origin features1-scen2
-    2 - Collaboration in GitHub:
+
+    b - Collaboration in GitHub:
         1 - Creating the Pull Requests, get reviews and approval from Senior Engineer
         2 - Merge your code in your branch to a master (main) branches
+
+3- Get/download gitHub project to your local location and start new project:
+        go to your terminal:
+            cd /c/dev/
+            mkdir temp
+            pwd
+            /c/dev/temp/
+            git cole https://github.com/MassoumAbdel/PythonBasics.git
+            (previous link comes from the link of your project you want to download get it from code(https))
+            cd pythonBasics
+            git log # shows latest commit in the log
+            # then you can open in PyCharm and start working on it as regular project
+
  - Ignore files
     - create .gitignore (list of files to be ignored bi git)
     - you can copy the standard .gitignore file for python projects (like we did in the class)
+
  - MD files for Project Documentation
 
 
