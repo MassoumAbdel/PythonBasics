@@ -112,6 +112,12 @@ another picture
 
 [picture2](2.jpeg)
 
+## reference to the files
+
+1. Find the examples [here](./functions/function_exec.py) for the functions.
+2. Check the [gitignore](.gitignore) file as well
+3. Please do more exercise and save in [this folder](./exercises)
+
 ## References:
 1. level up github account [link](https://github.com/levelupcgi?tab=repositories).
 2. [Markdown support](https://www.jetbrains.com/help/pycharm/markdown.html)
