@@ -104,19 +104,19 @@ please [click here](https://www.jetbrains.com/help/pycharm/markdown.html) to see
 
 you can see the pictures below
 
-[funny classroom](funny-classroom.png)
+[funny classroom](src/funny-classroom.png)
 
 picture will be between the text
 
 another picture 
 
-[picture2](2.jpeg)
+[picture2](src/2.jpeg)
 
 ## reference to the files
 
-1. Find the examples [here](./functions/function_exec.py) for the functions.
+1. Find the examples [here](src/functions/function_exec.py) for the functions.
 2. Check the [gitignore](.gitignore) file as well
-3. Please do more exercise and save in [this folder](./exercises)
+3. Please do more exercise and save in [this folder](src/exercises)
 
 ## References:
 1. level up github account [link](https://github.com/levelupcgi?tab=repositories).
