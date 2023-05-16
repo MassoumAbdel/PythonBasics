@@ -34,3 +34,23 @@ class car:
             print(f"Miles should be a positive number! value entered: {miles}")
 
 
+
+# ElectricCar class is inheritting Car class (attributes and hebaviour)
+
+class ElectricCar(car):
+    """ Represent aspects of a car, specific to electric vehicles"""
+    # when we don't have constructor (__init__method) in the childclass,
+    # parent class constructor is executed
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+        self.battery_size = 100 # in Kwh (with default value)
+        # battery size is child class attribute only
+
+    def describe_battery(self):
+        print(f" Your current vehicle battery size: {self.battery_size}")
+
+
+
+
+
+

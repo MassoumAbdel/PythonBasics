@@ -17,8 +17,18 @@ car1.increment_odometer(50) # testing the increment_odometer
 print(car1.get_odometer())
 car1.increment_odometer(-50) # testing the increment_odometer
 print(car1.get_odometer())
-car1.increment_odometer('a')
-print(car1.get_odometer())
+# car1.increment_odometer('a')
+# print(car1.get_odometer())
+
+print('********* Creating the electric car object ...')
+tesla1 = ElectricCar('tesla', 'X', 2023)
+tesla1.get_description()
+print(tesla1.get_odometer())
+print('battery size: ', tesla1.battery_size)
+# print(car1.battery_size) # parent doesn't have this attribute
+# print(car1.describe_battery) # parent doesn't have this attribute
+tesla1.describe_battery()
+
 
 
 # H/W: 9-4, 9-5
