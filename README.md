@@ -112,6 +112,20 @@ another picture
 
 [picture2](src/2.jpeg)
 
+## Agenda: 05/14/2023
+### Inheritance:
+- Importing Classes
+- The __init__() Method for Child Class
+  (employee -> developer, qa, ba)
+  (student -> qa, ba, prod_support)
+  (page -> base_page, login, signup, payment, checkout, main)
+
+### Object-oriented Programming Concept:
+- Abstraction: Classes and Objects
+- Encapsulation (hiding information)
+- Inheritance
+- Polymorphism: Method overriding (Method Overloading we will not see in python), this happens because of Inheritance
+
 ## reference to the files
 
 1. Find the examples [here](src/functions/function_exec.py) for the functions.

@@ -15,6 +15,10 @@ class car:
         """ summary of car details, usually you have return statement"""
         print(f"Details of the car\n\tMake/Model/Year: {self.make.title()}/{self.model.upper()}/{self.year}")
 
+    # Polymorphism, method overloading is not allowed
+    # def get_description(self, name):
+    #     print(name)
+
     def get_odometer(self):
         return f'Current milage: {self.odmeter_reading}'
 
@@ -41,15 +45,17 @@ class ElectricCar(car):
     """ Represent aspects of a car, specific to electric vehicles"""
     # when we don't have constructor (__init__method) in the childclass,
     # parent class constructor is executed
-    def __init__(self, make, model, year):
+    def __init__(self, make, model, year, battery_size = 100):
         super().__init__(make, model, year)
-        self.battery_size = 100 # in Kwh (with default value)
+        self.battery_size = battery_size # in Kwh (with default value)
         # battery size is child class attribute only
 
     def describe_battery(self):
         print(f" Your current vehicle battery size: {self.battery_size}")
 
-
+    def get_description(self):
+        super().get_description()
+        print(f'\n\t Battery size: {self.battery_size}')
 
 
 

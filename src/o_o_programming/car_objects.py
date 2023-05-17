@@ -22,6 +22,9 @@ print(car1.get_odometer())
 
 print('********* Creating the electric car object ...')
 tesla1 = ElectricCar('tesla', 'X', 2023)
+# after adding battery size to __init__, we can still use 3 argument
+# because battery_size was added as optional parameter
+
 tesla1.get_description()
 print(tesla1.get_odometer())
 print('battery size: ', tesla1.battery_size)
@@ -29,6 +32,13 @@ print('battery size: ', tesla1.battery_size)
 # print(car1.describe_battery) # parent doesn't have this attribute
 tesla1.describe_battery()
 
+print(' -------- Tesla 2 ----------')
+tesla2 = ElectricCar('Tesla', 'Y', 20121, 90)
+tesla2.describe_battery()
+
+print(' -------- Method Overriding ----------')
+car1.get_description()
+tesla2.get_description()
 
 
 # H/W: 9-4, 9-5
