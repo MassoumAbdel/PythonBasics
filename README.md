@@ -126,6 +126,25 @@ another picture
 - Inheritance
 - Polymorphism: Method overriding (Method Overloading we will not see in python), this happens because of Inheritance
 
+## YAML files for Test data storage and Input file
+
+Representing the data in python data structure
+```python
+student = {'name': 'John Smith', 'age': 20, 'positions': {'qa', 'ba', 'dev'}}
+
+```
+
+representing the data in YAML file
+```yaml
+name: John Smith
+age: 20
+positions:
+  - 'qa'
+  - 'ba'
+  - 'dev'
+
+```
+
 ## reference to the files
 
 1. Find the examples [here](src/functions/function_exec.py) for the functions.

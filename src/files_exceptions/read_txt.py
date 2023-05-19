@@ -1,5 +1,5 @@
 # Chapter 10: Read Files (txt)
-
+# syntax
 # with open(filepath) as file_object:
 #     file_contents = file_object.read() # option 1 - get the whole content
 

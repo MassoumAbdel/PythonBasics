@@ -1,0 +1,15 @@
+  username: johndoe
+  password: secret!
+  host: 'https//www.saucedemo.com'
+
+testEu:
+  username: johndoe1
+  password: secret1!
+  host: 'https//www.saucedemo-eu.com'
+
+
+testEu:
+  username: johndoe2
+  password: secret2!
+  host: 'https//www.saucedemo-us.com'
+
