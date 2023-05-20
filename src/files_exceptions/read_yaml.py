@@ -12,8 +12,6 @@ with open(config_file,'r') as file:
 # print(credentials['password'])
 # print(credentials['host'])
 
-
-
 print(credentials)
 
 uname = credentials['username']
